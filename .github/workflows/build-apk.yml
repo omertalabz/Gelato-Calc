@@ -35,7 +35,7 @@ jobs:
 
       - name: Install Capacitor and add Android platform
         run: |
-          npm install --no-save @capacitor/core @capacitor/cli @capacitor/android
+          npm install --no-save @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
           if [ ! -d "android" ]; then
             npx cap add android
           fi

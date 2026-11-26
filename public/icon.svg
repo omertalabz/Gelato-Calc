@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="scoop1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="scoop2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle with padding for safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+
+  <!-- Subtle glow ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#38bdf8" stroke-width="3" stroke-opacity="0.25" stroke-dasharray="8 8" />
+
+  <!-- Gelato Cone / Cup Base -->
+  <path d="M196 280 L256 420 L316 280 Z" fill="url(#cone)" stroke="#fef3c7" stroke-width="4" stroke-linejoin="round" />
+  <!-- Cone Waffle Pattern lines -->
+  <line x1="210" y1="310" x2="295" y2="330" stroke="#78350f" stroke-width="3" opacity="0.6" />
+  <line x1="225" y1="345" x2="280" y2="365" stroke="#78350f" stroke-width="3" opacity="0.6" />
+  <line x1="240" y1="380" x2="265" y2="395" stroke="#78350f" stroke-width="3" opacity="0.6" />
+  <line x1="300" y1="310" x2="215" y2="330" stroke="#78350f" stroke-width="3" opacity="0.6" />
+  <line x1="285" y1="345" x2="230" y2="365" stroke="#78350f" stroke-width="3" opacity="0.6" />
+
+  <!-- Scoop 1 (Amber / Cream) -->
+  <circle cx="216" cy="230" r="64" fill="url(#scoop1)" stroke="#fef3c7" stroke-width="4" />
+
+  <!-- Scoop 2 (Cyan / PAC Ice Crystals) -->
+  <circle cx="296" cy="230" r="64" fill="url(#scoop2)" stroke="#fef3c7" stroke-width="4" />
+
+  <!-- Top Center Scoop (Fiordilatte swirl) -->
+  <circle cx="256" cy="170" r="68" fill="#ffffff" stroke="#f1f5f9" stroke-width="4" />
+
+  <!-- Temperature & PAC Star / Crystal symbol in the top scoop -->
+  <g transform="translate(256, 170) scale(0.9)">
+    <path d="M0 -30 L0 30 M-30 0 L30 0 M-21 -21 L21 21 M-21 21 L21 -21" stroke="#0284c7" stroke-width="4.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="6" fill="#0284c7" />
+  </g>
+
+  <!-- Balance scales indicator lines at bottom -->
+  <text x="256" y="468" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#f8fafc" letter-spacing="2">GELATO LAB</text>
+</svg>

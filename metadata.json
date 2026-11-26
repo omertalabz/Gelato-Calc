@@ -1,0 +1,8 @@
+{
+  "name": "Remix Gelato Bilanciamento - Калькулятор балансировки джелато",
+  "description": "Профессиональный инструмент балансировки рецептов итальянского джелато и сорбетов: расчёт жирности, сахаров, сухого обезжиренного молочного остатка (СОМО), коэффициента сладости (POD) и точки замерзания (PAC).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

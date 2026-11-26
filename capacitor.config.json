@@ -1,0 +1,8 @@
+{
+  "appId": "com.gelatolab.bilanciamento",
+  "appName": "Gelato Bilanciamento",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
